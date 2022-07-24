@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: linear-gradient(45deg, greenyellow, dodgerblue);*/
+    background-image: url("img/med4.jpg");
+    background-size:cover;
+    font-family: "Sansita Swashed", cursive;
+  }
+  button{
+    border-right-width: 110px;
+    border-left-width: 110px;
+  }
+  .b1{
+    position: absolute;
+    margin: 0px;
+    left: 40%;
+    top: 35%;
+  }
+  .b2{
+    position: absolute;
+    margin: 0px;
+    left: 40%;
+    top: 45%;
+  }
+  .b3{
+    position: absolute;
+    margin: 0px;
+    left: 40%;
+    top: 55%;
+  }
+  .b4{
+    position: absolute;
+    margin: 0px;
+    left: 40%;
+    
+    top: 65%;
+  }
+  .b5{
+    position: absolute;
+    margin: 0px;
+    left: 40%;
+    
+    top: 75%;
+  }
+  #logout{
+    font-size: 15px;
+  }
+
+  .upper [type="button"] {
+    width: 50%;
+    background: dodgerblue;
+    color: #fff;
+    border: #fff;
+  }
+  .upper .inputbox:hover [type="button"] {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+  }
+  
+  .upper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    padding: 15px 32px;
+    font-size: 30px;
+  }
+  .inputbox{
+    font-size: 15px;
+  }

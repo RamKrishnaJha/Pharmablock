@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    
+  </head>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <body>
+    
+    <div class="center">
+        <h1>Buy Drug</h1>
+        <form class="purchaseorder" id="buydrug" method="POST">
+          <div class="inputbox">
+            <input type="text" required="required" name="name">
+            <span>Enter Name</span>
+          </div>
+          <div class="inputbox">
+            <input type="text" required="required" name="retailerCRN">
+            <span>Enter Retailer CRN</span>
+          </div>
+          <div class="inputbox">
+            <input type="text" required="required" name="drugName">
+            <span>Enter Drug Name</span>
+          </div>
+          <div class="inputbox">
+            <input type="text" required="required" name="customerAadhar">
+            <span>Enter Aadhar</span>
+          </div>
+          <div class="inputbox">
+            <input type="submit" value="Buy">
+          </div>
+        </form>
+        <div id="message">
+        </div>
+        <button type="button" class="btn btn-primary" id="back">Back to Menu</button>
+      </div>
+      <div class="upper">
+        <div class="inputbox">
+          <input type="button" value="Log-Out">
+        </div>
+      </div>
+    
+</body>
+<script src="buydrug1.js"></script>
+</html>
+
